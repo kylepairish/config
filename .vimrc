@@ -4,7 +4,7 @@ Plug 'morhetz/gruvbox'
 
 call plug#end()
 
-let g:gruvbox_contrast_dark = 'dark'
+let g:gruvbox_contrast_dark = 'medium'
 autocmd vimenter * ++nested colorscheme gruvbox
 
 syntax on
